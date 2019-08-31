@@ -1,3 +1,20 @@
+#  __           _       _     _ ____          _                   _                       _                                 _               _     
+# / _\ ___ _ __(_)_ __ | |_  / |___ \ _    __| | ___  ___ _ __   | | ___  __ _ _ __ _ __ (_)_ __   __ _    __ _ _ __   __ _| |___ _   _ ___(_)___ 
+# \ \ / __| '__| | '_ \| __| | | __) (_)  / _` |/ _ \/ _ \ '_ \  | |/ _ \/ _` | '__| '_ \| | '_ \ / _` |  / _` | '_ \ / _` | / __| | | / __| / __|
+# _\ \ (__| |  | | |_) | |_  | |/ __/ _  | (_| |  __/  __/ |_) | | |  __/ (_| | |  | | | | | | | | (_| | | (_| | | | | (_| | \__ \ |_| \__ \ \__ \
+# \__/\___|_|  |_| .__/ \__| |_|_____(_)  \__,_|\___|\___| .__/  |_|\___|\__,_|_|  |_| |_|_|_| |_|\__, |  \__,_|_| |_|\__,_|_|___/\__, |___/_|___/
+#                |_|                                     |_|                                      |___/                           |___/           
+
+# Script: 12_deep_learning_analysis.py
+# Author: Enrique Blanco Carmona
+# Year: 2019
+# Project: MSc Bioinformatics UAB final thesis. 
+# Objective: This is the deep learning analysis script. In here, we will load the files into dataframes.
+# Then, we will merge the dataframes into a single one, to then split it into training and test datasets. Finally,
+# after the model is trained, the accuracy of it can be assessed.
+
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

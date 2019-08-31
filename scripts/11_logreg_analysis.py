@@ -1,3 +1,20 @@
+#  __           _       _     _ _     _                                                _           _     
+# / _\ ___ _ __(_)_ __ | |_  / / |_  | | ___   __ _ _ __ ___  __ _    __ _ _ __   __ _| |_   _ ___(_)___ 
+# \ \ / __| '__| | '_ \| __| | | (_) | |/ _ \ / _` | '__/ _ \/ _` |  / _` | '_ \ / _` | | | | / __| / __|
+# _\ \ (__| |  | | |_) | |_  | | |_  | | (_) | (_| | | |  __/ (_| | | (_| | | | | (_| | | |_| \__ \ \__ \
+# \__/\___|_|  |_| .__/ \__| |_|_(_) |_|\___/ \__, |_|  \___|\__, |  \__,_|_| |_|\__,_|_|\__, |___/_|___/
+#                |_|                          |___/          |___/                       |___/           
+
+# Script: 11_logreg_analysis.py
+# Author: Enrique Blanco Carmona
+# Year: 2019
+# Project: MSc Bioinformatics UAB final thesis. 
+# Objective: This is the logistic regression analysis script. In here, we will load the files into dataframes.
+# Then, we will merge the dataframes into a single one, to then split it into training and test datasets. Finally,
+# after the model is trained, confussion matrices and AUC will be plotted to assess the accuracy of the model.
+
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
