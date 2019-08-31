@@ -1,5 +1,16 @@
+#  __           _       _     _ _____              _   _               _             _            _ _            
+# / _\ ___ _ __(_)_ __ | |_  / |___ /_   _ __ ___ | |_| |__   ___  ___(_)___   _ __ (_)_ __   ___| (_)_ __   ___ 
+# \ \ / __| '__| | '_ \| __| | | |_ (_) | '_ ` _ \| __| '_ \ / _ \/ __| / __| | '_ \| | '_ \ / _ \ | | '_ \ / _ \
+# _\ \ (__| |  | | |_) | |_  | |___) |  | | | | | | |_| | | |  __/\__ \ \__ \ | |_) | | |_) |  __/ | | | | |  __/
+# \__/\___|_|  |_| .__/ \__| |_|____(_) |_| |_| |_|\__|_| |_|\___||___/_|___/ | .__/|_| .__/ \___|_|_|_| |_|\___|
+#                |_|                                                          |_|     |_|                        
 
-
+# Script: 13_mthesis_pipeline.sh
+# Author: Enrique Blanco Carmona
+# Year: 2019
+# Project: MSc Bioinformatics UAB final thesis. 
+# Objective: This is the whole mthesis wrapper pipeline. It just loads each script, so all the work mthesis work 
+# can be reproduced with this. 
 
 
 nohup bash ./scripts/01_data_download.sh &
